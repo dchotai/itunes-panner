@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/aterrien/jQuery-Knob/master/js/jquery.knob.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>iTunes Panner</title>
+</head>
+<body>
+    <h1>iTunes Panner</h1>
+    <p>Search for a track and click play to use the panner.</p>
+
+    <input type="text" id="query" placeholder="OutKast - Hey Ya!">
+    <input type="submit" id="search" value="Search" onclick="getPreview()">
+    <div id="result"></div>
+
+    <audio id="source" crossOrigin="anonymous" src="" loop></audio>
+    <br>
+    <input type="text" id="slider" value="0" data-width="100%" class="dial" data-fgColor="#515151">
+
+    <script src="itunes-preview.js"></script>
+    <script src="panner.js"></script>
+</body>
+</html>

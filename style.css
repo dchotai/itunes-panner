@@ -1,0 +1,28 @@
+body {
+    width: 70%;
+    margin: 2em auto 2em;
+    font-size: 1.25em;
+    line-height: 1.4em;
+    text-align: center;
+    font-family: Helvetica;
+    color: #515151;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0em;
+    font-size: 1em;
+}
+
+audio {
+    width: 100%;
+}
